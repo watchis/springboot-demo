@@ -3,10 +3,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/DiscoveryServer/pom.xml" />
         <option value="$PROJECT_DIR$/RobotGeneratorController/pom.xml" />
         <option value="$PROJECT_DIR$/RobotIconService/pom.xml" />
         <option value="$PROJECT_DIR$/UserInfoService/pom.xml" />
-        <option value="$PROJECT_DIR$/DiscoveryServer/pom.xml" />
       </list>
     </option>
   </component>
