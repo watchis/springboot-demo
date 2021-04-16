@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DiscoveryServer" />
+        <module name="RobotGeneratorController" />
+        <module name="RobotIconService" />
+        <module name="UserInfoService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DiscoveryServer" target="11" />
+      <module name="RobotGeneratorController" target="11" />
+      <module name="RobotIconService" target="11" />
+      <module name="springboot-demo" target="1.5" />
+      <module name="UserInfoService" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DiscoveryServer" options="-parameters" />
+      <module name="RobotGeneratorController" options="-parameters" />
+      <module name="RobotIconService" options="-parameters" />
+      <module name="UserInfoService" options="-parameters" />
+    </option>
+  </component>
+</project>

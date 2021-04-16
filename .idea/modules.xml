@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DiscoveryServer/DiscoveryServer.iml" filepath="$PROJECT_DIR$/DiscoveryServer/DiscoveryServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RobotGeneratorController/RobotGeneratorController.iml" filepath="$PROJECT_DIR$/RobotGeneratorController/RobotGeneratorController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RobotIconService/RobotIconService.iml" filepath="$PROJECT_DIR$/RobotIconService/RobotIconService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserInfoService/UserInfoService.iml" filepath="$PROJECT_DIR$/UserInfoService/UserInfoService.iml" />
+    </modules>
+  </component>
+</project>

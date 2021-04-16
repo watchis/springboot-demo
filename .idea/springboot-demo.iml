@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/DiscoveryServer/${project.build.directory}/classes" />
+    <output-test url="file://$MODULE_DIR$/DiscoveryServer/${project.build.directory}/test-classes" />
+    <content url="file://$MODULE_DIR$/DiscoveryServer">
+      <sourceFolder url="file://$MODULE_DIR$/DiscoveryServer/.mvn/wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DiscoveryServer/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DiscoveryServer/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/DiscoveryServer/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/DiscoveryServer/${project.build.directory}/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/DiscoveryServer/${project.build.directory}/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/DiscoveryServer/target" />
+    </content>
+    <content url="file://$MODULE_DIR$/RobotGeneratorController">
+      <sourceFolder url="file://$MODULE_DIR$/RobotGeneratorController/.mvn/wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RobotGeneratorController/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RobotGeneratorController/src/test/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/RobotIconService">
+      <sourceFolder url="file://$MODULE_DIR$/RobotIconService/.mvn/wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RobotIconService/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RobotIconService/src/test/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/UserInfoService">
+      <sourceFolder url="file://$MODULE_DIR$/UserInfoService/.mvn/wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UserInfoService/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UserInfoService/src/test/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
