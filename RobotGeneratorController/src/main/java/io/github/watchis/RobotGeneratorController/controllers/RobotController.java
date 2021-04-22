@@ -1,5 +1,7 @@
 package io.github.watchis.RobotGeneratorController.controllers;
 
+import io.github.watchis.RobotGeneratorController.models.HumanProfile;
+import io.github.watchis.RobotGeneratorController.models.Profile;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -18,17 +20,27 @@ public class RobotController {
     RestTemplate restTemplate;
 
     @GetMapping("/{message}")
-    @ResponseBody
-    public HttpEntity<byte[]> getRobotIcon(@PathVariable("message") String message) throws Exception {
-        String uri = "https://robohash.org/";
+    public Profile getProfile(@PathVariable("message") String message) {
 
-        InputStream in = new URL(uri + message).openStream();
-        byte[] image = in.readAllBytes();
+        Profile profile = new Profile();
+
+        profile.setRobotImage(fetchRobotImage(message));
+        profile.setProfile(fetchProfile());
+
+        return profile;
+    }
+
+    private HttpEntity<byte[]> fetchRobotImage(String message) {
+        byte[] image = restTemplate.getForObject("http://robot-icon-service/roboticon/" + message, byte[].class);
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.IMAGE_PNG);
         headers.setContentLength(image.length);
 
         return new HttpEntity<>(image, headers);
+    }
+
+    private HumanProfile fetchProfile() {
+        return restTemplate.getForObject("http://user-info-service/userinfo/generate", HumanProfile.class);
     }
 }
